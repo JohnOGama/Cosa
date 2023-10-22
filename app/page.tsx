@@ -1,7 +1,12 @@
 import LOGO from "@/public/Logo.webp";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import CompanyIntro from "@/pages/CompanyIntro";
+import Intro from "@/pages/Intro";
+import Description from "@/pages/Description";
+import Quotes from "@/pages/Quotes";
+import { Code } from "lucide-react";
+import CoDes from "@/pages/CoDes";
+import LastPage from "@/pages/LastPage";
 
 export default function Home() {
   return (
@@ -24,7 +29,13 @@ export default function Home() {
           Start A Project!
         </Button>
       </main>
-      <CompanyIntro />
+      <section>
+        <Intro />
+        <Description />
+        <Quotes />
+        <CoDes />
+        <LastPage />
+      </section>
     </>
   );
 }
