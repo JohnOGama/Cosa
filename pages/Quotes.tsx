@@ -11,8 +11,8 @@ export default function Quotes() {
         <div className="flex flex-col lg:flex-row  text-center lg:text-left gap-5">
           <div className="lg:flex lg:flex-col lg:justify-center">
             <h1 className="font-semibold text-2xl md:text-4xl">
-              "Embrace the winds of change, lead with innovation, and define a
-              timeless legacy."
+              &quotEmbrace the winds of change, lead with innovation, and define
+              a timeless legacy.&quot
             </h1>
             <p>- COSA</p>
           </div>
